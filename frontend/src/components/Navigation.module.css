@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    height: 15.5vh;
+    width: 100%;
+    background-color: #38689a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    width: 50vw;
+}
+.center h1{
+    color: #fff;
+    font-size: 2rem
+}
+.logo{
+    width: 100%;
+    height: 97.2%;
+    align-self: left;
+}
+.cart{
+    width: 100%;
+    align-self: right;
+}
+.navBar div{
+    display: flex;
+    gap: 20%;
+}
+.searchBar{
+    height: 3rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 2.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1.6rem;
+}
+.searchBar:focus{
+    border: none;
+    outline: none;
+}
+.nav{
+    width: 30%;
+    height: 100%;
+}
