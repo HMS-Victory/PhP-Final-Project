@@ -13,7 +13,7 @@ export const login=(submitData)=>axios.post(url+'login', submitData);
 // CRUD
 export const addNewItem=(itemData)=>axios.post(url+'newItem', itemData);//backend complete
 export const updateItem=(itemData)=>axios.post(url+'updateItem', itemData);//backend complete
-export const deleteItem=(itemId)=>axios.get(url+'deleteItem$id='+itemId);//backend complete
+export const deleteItem=(itemId)=>axios.get(`${url}deleteItem&id=${itemId}`);//backend complete
 export const fetchSuggestions=()=>axios.get(url+'fetchItems');//Working already
 
 
